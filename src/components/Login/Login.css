@@ -1,0 +1,43 @@
+.login-wrapper {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 60px;
+}
+
+form {
+  width: 300px;
+}
+
+.btn-login {
+  display: grid;
+}
+
+.remember-widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-icons-widget {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-icons-widget button {
+  width: 45%;
+}
+
+.is-valid {
+  color: red;
+  font-weight: 400;
+  margin-top: 20px;
+}

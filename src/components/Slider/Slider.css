@@ -1,0 +1,18 @@
+.slider-wrapper {
+  height: 100vh;
+
+  background: #013467;
+  background-image: url("../../assets/images/bg-street.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-wrapper h1 {
+  color: #fff;
+}
